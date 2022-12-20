@@ -42,7 +42,7 @@ java -jar kartel_game.jar
 
 # Documentation
 
-you can find some documentation (report, class diagram,...) about this project in the 'docs' folder. 
+You can find some documentation (report, class diagram,...) about this project in the 'docs' folder. 
 This project being intended for a French professor, so this documentation and the comments of the code are in French.
 
 # Contributors 
