@@ -1,0 +1,22 @@
+Tous les jetons sont positionnés en rond aléatoirement, le détective y compris.
+
+Dans ce jeu tous les joueurs contrôlent le même pion qui est le détective, et le font avancer dans le but de
+récupérer des jetons. Pour ceci, les joueurs jouent chacun leur tour, le joueur qui joue lance un dé, ce dé
+possède 2 faces avec le numéro 2, 2 faces avec le numéro 3, et 2 faces avec le numéro 4. En fonction du
+résultat du dé, le joueurs à la possibilité de choisir de combien de jetons il décide d'avancer le détective.
+Le jeton sur lequel atterit le détective subit différents sorts suivant sa nature, si c'est un boss il finit en prison,
+si c'est un pot de vin ou des gangsters le joueur venant de jouer le récupère dans sa réserve, et si c'est un
+jeton 'evasion' il est enlever du jeu et donne la possibilité au joueur de retirer un boss de la prison.
+Le jeu prend fin quand il y a 5 boss en prison.
+
+Pour calculer les scores:
+-Pot de vin: si le boss du même gang n'est pas en prison vaut 3 point
+-Gangster: si le boss du même gang n'est pas en prison retire le nombre de gangster en point
+           si le boss du même gang est en prison vaut le nombre de gangster en point
+
+Représentation ici (le '?' représente le gang, en jeu il sera remplacé par des lettres correspondant chacune à un gang):
+-Détective: <>
+-Evasion: #
+-Boss: [?]
+-Pot de vin: $?
+-Gangster: chiffre? (le chiffre représente le nombre de gangster, peut être 1,2,ou3)
