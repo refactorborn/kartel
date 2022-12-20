@@ -1,55 +1,54 @@
 # Project
 
-It's a small program with functions to calculate discrete Fourier transforms and inverse discrete fourier transform with different algorithms (DFT, FFT, IDFT, IFFT).
+It's a simple console application reproducing of the already existing board game '[Kartel](https://boardgamegeek.com/boardgame/244584/kartel "")', all players play on the same computer.
 
-![](./imgReadme.JPG)
+![](./imgReadme.jpg)
 
-This project was made for a 3rd year license study project.
-
+This project was made for a 1st year license study project.
 
 ### Features 
 
-- Before using functions you can import image, import a file Numpy (with extension .npy), or create matrix.
-- You can choose between 4 functions to applied :
-  - calcul of discrete Fourier transform with direct algorithm (DFT)
-  - calcul of inverse discrete Fourier transform with direct algorithm (IDFT)
-  - calcul of discrete Fourier transform with recursive algorithm (FFT)
-  - calcul of inverse discrete Fourier transform with recursive algorithm (IFFT)
-- After the function has been applied, my program create result image and some result file in different file format.
+All the rules of the original game are present, plus a new type of token. You can view the rules from the app, or find them in the 'docs' folder.
 
 # Built with 
 
-The project was made in Python with 4 Python modules (PIL, cmath, numpy, time).
+The project was made in Java.
 
-# Get project
+# Get and use project
 
 ### Prerequisites
 
-1. You need [Python](https://www.python.org/downloads/ "")
-2. You need install the 4 Python modules : PIL, cmath, numpy, time
-```
-python -m pip install name_module
-```
+1. You need [Java](https://www.java.com/ "")
 
 ### Installation 
 
 1. Clone the repo. 
 ```
-git clone https://github.com/LilianLeVrai/discrete_Fourier_transform.git
+git clone https://github.com/LilianLeVrai/Kartel_game.git
 ```
-2. And just run the program. 
+2. Compile java files from 'src' folder. 
 ```
-python src/main.py
+java ./kartel_game/*.java
 ```
+3. Create the executable (.jar) from 'src' folder.
+```
+jar cvmf manifest.mf kartel_game.jar kartel_game
+```
+4. Run the game. 
+```
+java -jar kartel_game.jar
+```
+
 
 # Documentation
 
-you can find a report about this project in the 'docs' folder. 
-This project being intended for a French professor, this report and the comments of the code are in French.
+you can find some documentation (report, class diagram,...) about this project in the 'docs' folder. 
+This project being intended for a French professor, so this documentation and the comments of the code are in French.
 
 # Contributors 
 
-- [Lilian M](https://github.com/LilianLeVrai "").
+- [Lilian M.](https://github.com/LilianLeVrai "")
+- Robin L.
 
 
 
