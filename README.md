@@ -18,7 +18,7 @@ The project was made in Java.
 
 ### Prerequisites
 
-1. You need [Java](https://www.java.com/ "")
+1. You need [Java](https://www.java.com/ "").
 
 ### Installation 
 
