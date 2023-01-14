@@ -28,7 +28,7 @@ git clone https://github.com/LilianLeVrai/Kartel_game.git
 ```
 2. Compile java files from 'src' folder. 
 ```
-java ./kartel_game/*.java
+javac ./kartel_game/*.java
 ```
 3. Create the executable (.jar) from 'src' folder.
 ```
